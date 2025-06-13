@@ -1,7 +1,7 @@
 
 import './index.css';
 import logo from './assets/logo.png'
-import ContactForm from './Contactform';
+import ContactForm from './ContactForm';
 import Footer from './Footer';
 function App() {
 
