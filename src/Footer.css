@@ -1,0 +1,87 @@
+.footer {
+    background-color: #2f8a2c;
+    color: #fff;
+    padding: 3rem 1rem 1rem;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    gap: 2rem;
+}
+
+.footer-left {
+    flex: 1 1 300px;
+}
+
+.footer-logo {
+    width: 140px;
+    margin-bottom: 1rem;
+}
+
+.footer-left p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.footer-services,
+.footer-contacts {
+    flex: 1 1 200px;
+}
+
+.footer-services h4,
+.footer-contacts h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 0.4rem;
+    width: fit-content;
+}
+
+.footer-services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-services li {
+    margin-bottom: 0.6rem;
+    transition: transform 0.2s ease;
+}
+
+.footer-services li:hover {
+    transform: translateX(4px);
+    color: #c8f4c7;
+}
+
+.contact-entry {
+    margin-bottom: 1rem;
+}
+
+.contact-entry span {
+    display: block;
+    font-weight: bold;
+}
+
+.contact-entry a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+.contact-entry a:hover {
+    color: #c8f4c7;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}

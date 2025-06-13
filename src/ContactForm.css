@@ -1,0 +1,107 @@
+.contact-section {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 1rem;
+    background: linear-gradient(to right, #fefce8, #f1fce6);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.contact-card {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(12px);
+    padding: 3rem 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 600px;
+    animation: fadeSlide 0.8s ease;
+}
+
+.contact-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #2f8a2c;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.contact-subtitle {
+    text-align: center;
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.contact-form .form-group {
+    margin-bottom: 1.3rem;
+    
+}
+
+.contact-form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 90%;
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+    border: 2px solid #d8e6d7;
+    border-radius: 12px;
+    background: #fff;
+    transition: 0.3s ease;
+    outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #2f8a2c;
+    box-shadow: 0 0 0 3px rgba(47, 138, 44, 0.1);
+}
+
+.error {
+    font-size: 0.85rem;
+    color: #e74c3c;
+    margin-top: 0.3rem;
+    display: block;
+}
+
+.contact-btn {
+    background: #2f8a2c;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border: none;
+    width: 96%;
+    border-radius: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s ease;
+}
+
+.contact-btn:hover {
+    background: #256e22;
+    transform: translateY(-2px);
+}
+
+
+@keyframes fadeSlide {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-card {
+        padding: 2rem 1rem;
+    }
+}
